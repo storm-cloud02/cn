@@ -1,0 +1,13 @@
+Instructions to Run
+
+Compile each file with g++ -o <output_file> <file_name.cpp>.
+
+Run the server in one terminal:
+For TCP Server: ./tcp_server
+For UDP Server: ./udp_server
+
+Run the client in another terminal:
+For TCP Client: ./tcp_client
+For UDP Client: ./udp_client
+
+These codes should work on Linux-based systems. For Windows, you may need to use winsock2.h and adapt certain calls.

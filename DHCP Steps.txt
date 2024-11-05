@@ -1,0 +1,16 @@
+Requirements : 5 PCs, 1 switch, 1 Server
+
+Steps:
+
+1. Server --> Ip --> 10.0.0.1
+2. Server --> Services --> DHCP --> Default Gateway --> 10.0.0.1 --> Save it --> "ON" it
+
+3. PC0 --> Ip --> DHCP --> ON
+   PC1 --> Ip --> DHCP --> ON
+   PC2 --> Ip --> DHCP --> ON
+   PC3 --> Ip --> DHCP --> ON
+   PC4 --> Ip --> DHCP --> ON
+
+4. Now, check connectivity between any two devices.
+
+5. PC --> cmd --> ping 10.0.0.3
